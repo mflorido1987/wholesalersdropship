@@ -1,0 +1,19 @@
+.templates-container {}
+.templates-container .template-item {padding-bottom: 30px;}
+.template-item p {font-size: 16px;line-height: 22px;margin: 0px 0px 10px;}
+.template-item p a {color: inherit;outline: none;}
+.template-item .template-item-inner {position: relative;height: 100%;background: #fff;box-shadow: 1px 1px 22px rgba(157,184,209,.19);border-radius: 3px;overflow: hidden;transition: all .3s;}
+.template-item .template-item-photo {position: relative;height: 250px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.template-item a.template-item-link {position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;outline: none;}
+.template-item .template-item-content {padding: 10px 15px 51px;}
+.template-item .template-item-title {color: #333;}
+ul.template-item-meta {margin: 0px 0px 10px;padding: 0px;list-style: none;}
+ul.template-item-meta li {font-size: 16px;color: #999;line-height: 22px;}
+.template-item .x-btn {width: auto;position: absolute;left: 15px;bottom: 15px;right: 15px;}
+.templates-container .template-item-inner:hover {transform: translateY(-5px) translateZ(0);}
+body.single-template .entry-header .p-meta, body.single-product .entry-header .p-meta {display: none;}
+body.single-template .template-item .template-item-photo, body.single-product .template-item .template-item-photo {height: 142px;}
+body.single-product .entry-content {margin-bottom: 20px;}
+@media (min-width: 768px) {.templates-container {display: flex;flex-wrap: wrap;margin-left: -15px;margin-right: -15px;}
+	.templates-container .template-item {width: 50%;padding-left: 15px;padding-right: 15px;}}
+@media (min-width: 992px) {.templates-container .template-item {width: 33.33%;}}

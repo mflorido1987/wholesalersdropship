@@ -1,0 +1,25 @@
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+	from = "https://wholesalersdropship.netlify.com/*"
+	to = "https://wholesalersdropship.com/:splat"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "https://wholesalersdropship.netlify.com"
+	to = "https://wholesalersdropship.com"
+	status = 301
+	force = true
+
+# Other redirects below
+[[redirects]]
+	from = "/checkout"
+	to = "/"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "/cart"
+	to = "/"
+	status = 301
+	force = true

@@ -1,0 +1,5 @@
+# ignore uploads folder
+wp-content/uploads/
+
+# ignore log files and databases
+*.DS_Store
